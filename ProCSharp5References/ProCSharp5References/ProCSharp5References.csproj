@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter4\FunWithArrays.cs" />
+    <Compile Include="Chapter4\FunWithEnums.cs" />
     <Compile Include="Chapter4\FunWithMethods.cs" />
+    <Compile Include="Chapter4\FunWithStructures.cs" />
+    <Compile Include="Chapter4\MethodOverloading.cs" />
+    <Compile Include="Chapter4\NullableTypes.cs" />
+    <Compile Include="Chapter4\RefTypeValTypeParams.cs" />
+    <Compile Include="Chapter4\ValueAndReferenceTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
