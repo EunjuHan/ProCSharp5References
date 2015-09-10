@@ -1,0 +1,6 @@
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\bin\Debug\ProCSharp5References.exe.config
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\bin\Debug\ProCSharp5References.exe
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\bin\Debug\ProCSharp5References.pdb
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\obj\Debug\ProCSharp5References.exe
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\obj\Debug\ProCSharp5References.pdb
+C:\Users\videocon\Documents\work_han\srcs\git\ProCSharp5References\ProCSharp5References\obj\Debug\ProCSharp5References.csprojResolveAssemblyReference.cache

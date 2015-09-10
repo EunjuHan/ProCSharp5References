@@ -7,6 +7,14 @@ using System.Threading.Tasks;
 namespace ProCSharp5References.Chapter4
 {
     #region A class with nullable data
+    /*
+     * Nullable data types can be particularly useful when you are interacting with databases, 
+     * given that columns in a data table may be intentionally empty(e.g., undefined)
+     * To illustrate, assume the following class, which simulates the process of accessing a database
+     * that has a table containing two columns that may be null. 
+     * Note that the GetIntFromDatabase() method is not assigning a value to the nullable integer member variable,
+     * while GetBoolFromDatabase() is assigning a valid value to the bool? member:
+    */
     class DatabaseReader
     {
         // Nullable data field.
@@ -27,6 +35,16 @@ namespace ProCSharp5References.Chapter4
     {
         public NullableTypes()
         {
+            //Compiler errors
+            //Value types cannot be set to null!
+            //bool myBool = null;
+            //int myInt = null;
+
+            //Strings are reference types
+            string myString = null;
+
+
+
             Console.WriteLine("***** Fun with Nullable Data *****\n");
             DatabaseReader dr = new DatabaseReader();
 
@@ -70,7 +88,11 @@ namespace ProCSharp5References.Chapter4
             Nullable<double> nullableDouble = 3.14;
             Nullable<bool> nullableBool = null;
             Nullable<char> nullableChar = 'a';
-            Nullable<int>[] arrayOfNullableInts = new int?[10];
+            Nullable<int>[] arrayOfNullableInts = new int?[10];            
+            /*
+             * the ? suffix notation is a shorthand for creating an instance of the generic System.Nullable<T> structure type.
+             * System.Nullable type provides a AppDomainSetup of numbers that all nullable types can make use of
+             * */
         }
 
         #endregion
